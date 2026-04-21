@@ -14,13 +14,13 @@ To write a Python program using **NumPy** that finds the indices where elements 
 
 ## 🧾 Program
 ```
-import numpy as np
-x=np.array(eval(input()))
-y=np.array(eval(input()))
-great=np.where(x>y)
-equal=np.where(x==y)
-print(great)
-print(equal)
+import numpy as np  
+x=eval(input()) 
+y=eval(input()) 
+l1=np.array(x) 
+l2=np.array(y) 
+print(np.where(l1>l2)) 
+print(np.where(l1==l2))
 ```
 ## Output:
 <img width="1059" height="213" alt="Screenshot 2026-04-21 135220" src="https://github.com/user-attachments/assets/cb13db9c-c8bc-4faf-8d21-f0c6758a5b8c" />
